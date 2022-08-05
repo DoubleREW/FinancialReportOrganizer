@@ -13,6 +13,24 @@
 		71EF64222898229600DBF8A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF64102898229300DBF8A2 /* ContentView.swift */; };
 		71EF64232898229600DBF8A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71EF64112898229600DBF8A2 /* Assets.xcassets */; };
 		71EF64242898229600DBF8A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71EF64112898229600DBF8A2 /* Assets.xcassets */; };
+		71EF642E289861F800DBF8A2 /* ConnectBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF642D289861F800DBF8A2 /* ConnectBridge.swift */; };
+		71EF642F289861F800DBF8A2 /* ConnectBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF642D289861F800DBF8A2 /* ConnectBridge.swift */; };
+		71EF64382899135A00DBF8A2 /* AvailableReportTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF64312899135A00DBF8A2 /* AvailableReportTypes.swift */; };
+		71EF64392899135A00DBF8A2 /* AvailableReportTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF64312899135A00DBF8A2 /* AvailableReportTypes.swift */; };
+		71EF643A2899135A00DBF8A2 /* FinancialReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF64322899135A00DBF8A2 /* FinancialReport.swift */; };
+		71EF643B2899135A00DBF8A2 /* FinancialReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF64322899135A00DBF8A2 /* FinancialReport.swift */; };
+		71EF643C2899135A00DBF8A2 /* RegionCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF64332899135A00DBF8A2 /* RegionCurrency.swift */; };
+		71EF643D2899135A00DBF8A2 /* RegionCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF64332899135A00DBF8A2 /* RegionCurrency.swift */; };
+		71EF643E2899135A00DBF8A2 /* ResponseMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF64342899135A00DBF8A2 /* ResponseMessages.swift */; };
+		71EF643F2899135A00DBF8A2 /* ResponseMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF64342899135A00DBF8A2 /* ResponseMessages.swift */; };
+		71EF64402899135A00DBF8A2 /* FinancialReportResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF64352899135A00DBF8A2 /* FinancialReportResponse.swift */; };
+		71EF64412899135A00DBF8A2 /* FinancialReportResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF64352899135A00DBF8A2 /* FinancialReportResponse.swift */; };
+		71EF64422899135A00DBF8A2 /* ProceedsByRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF64362899135A00DBF8A2 /* ProceedsByRegion.swift */; };
+		71EF64432899135A00DBF8A2 /* ProceedsByRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF64362899135A00DBF8A2 /* ProceedsByRegion.swift */; };
+		71EF64442899135A00DBF8A2 /* ReportSummaries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF64372899135A00DBF8A2 /* ReportSummaries.swift */; };
+		71EF64452899135A00DBF8A2 /* ReportSummaries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF64372899135A00DBF8A2 /* ReportSummaries.swift */; };
+		71EF6447289A3E1D00DBF8A2 /* LegalEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF6446289A3E1D00DBF8A2 /* LegalEntity.swift */; };
+		71EF6448289A3E1D00DBF8A2 /* LegalEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF6446289A3E1D00DBF8A2 /* LegalEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +40,15 @@
 		71EF64162898229600DBF8A2 /* FinancialReportSplitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinancialReportSplitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71EF641C2898229600DBF8A2 /* FinancialReportSplitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinancialReportSplitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71EF641E2898229600DBF8A2 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		71EF642D289861F800DBF8A2 /* ConnectBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectBridge.swift; sourceTree = "<group>"; };
+		71EF64312899135A00DBF8A2 /* AvailableReportTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvailableReportTypes.swift; sourceTree = "<group>"; };
+		71EF64322899135A00DBF8A2 /* FinancialReport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialReport.swift; sourceTree = "<group>"; };
+		71EF64332899135A00DBF8A2 /* RegionCurrency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegionCurrency.swift; sourceTree = "<group>"; };
+		71EF64342899135A00DBF8A2 /* ResponseMessages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseMessages.swift; sourceTree = "<group>"; };
+		71EF64352899135A00DBF8A2 /* FinancialReportResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialReportResponse.swift; sourceTree = "<group>"; };
+		71EF64362899135A00DBF8A2 /* ProceedsByRegion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProceedsByRegion.swift; sourceTree = "<group>"; };
+		71EF64372899135A00DBF8A2 /* ReportSummaries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportSummaries.swift; sourceTree = "<group>"; };
+		71EF6446289A3E1D00DBF8A2 /* LegalEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +81,9 @@
 		71EF640E2898229300DBF8A2 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				71EF64302899134900DBF8A2 /* Models */,
 				71EF640F2898229300DBF8A2 /* FinancialReportSplitterApp.swift */,
+				71EF642D289861F800DBF8A2 /* ConnectBridge.swift */,
 				71EF64102898229300DBF8A2 /* ContentView.swift */,
 				71EF64112898229600DBF8A2 /* Assets.xcassets */,
 			);
@@ -76,6 +105,21 @@
 				71EF641E2898229600DBF8A2 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		71EF64302899134900DBF8A2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				71EF64312899135A00DBF8A2 /* AvailableReportTypes.swift */,
+				71EF64322899135A00DBF8A2 /* FinancialReport.swift */,
+				71EF64352899135A00DBF8A2 /* FinancialReportResponse.swift */,
+				71EF64342899135A00DBF8A2 /* ResponseMessages.swift */,
+				71EF64362899135A00DBF8A2 /* ProceedsByRegion.swift */,
+				71EF64332899135A00DBF8A2 /* RegionCurrency.swift */,
+				71EF64372899135A00DBF8A2 /* ReportSummaries.swift */,
+				71EF6446289A3E1D00DBF8A2 /* LegalEntity.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,8 +220,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71EF6447289A3E1D00DBF8A2 /* LegalEntity.swift in Sources */,
+				71EF643C2899135A00DBF8A2 /* RegionCurrency.swift in Sources */,
 				71EF64212898229600DBF8A2 /* ContentView.swift in Sources */,
+				71EF64442899135A00DBF8A2 /* ReportSummaries.swift in Sources */,
+				71EF643A2899135A00DBF8A2 /* FinancialReport.swift in Sources */,
+				71EF643E2899135A00DBF8A2 /* ResponseMessages.swift in Sources */,
+				71EF642E289861F800DBF8A2 /* ConnectBridge.swift in Sources */,
+				71EF64402899135A00DBF8A2 /* FinancialReportResponse.swift in Sources */,
 				71EF641F2898229600DBF8A2 /* FinancialReportSplitterApp.swift in Sources */,
+				71EF64382899135A00DBF8A2 /* AvailableReportTypes.swift in Sources */,
+				71EF64422899135A00DBF8A2 /* ProceedsByRegion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,8 +238,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71EF6448289A3E1D00DBF8A2 /* LegalEntity.swift in Sources */,
+				71EF643D2899135A00DBF8A2 /* RegionCurrency.swift in Sources */,
 				71EF64222898229600DBF8A2 /* ContentView.swift in Sources */,
+				71EF64452899135A00DBF8A2 /* ReportSummaries.swift in Sources */,
+				71EF643B2899135A00DBF8A2 /* FinancialReport.swift in Sources */,
+				71EF643F2899135A00DBF8A2 /* ResponseMessages.swift in Sources */,
+				71EF642F289861F800DBF8A2 /* ConnectBridge.swift in Sources */,
+				71EF64412899135A00DBF8A2 /* FinancialReportResponse.swift in Sources */,
 				71EF64202898229600DBF8A2 /* FinancialReportSplitterApp.swift in Sources */,
+				71EF64392899135A00DBF8A2 /* AvailableReportTypes.swift in Sources */,
+				71EF64432899135A00DBF8A2 /* ProceedsByRegion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
