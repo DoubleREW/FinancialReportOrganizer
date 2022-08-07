@@ -11,7 +11,7 @@ struct ReportSummaries : Codable {
 	let isPaymentExpected : Bool
 	let paidOrExpectingPaymentDate : String
 	let proceedsByRegion : [ProceedsByRegion]
-	let externalPaymentIdentifier : String
+	let externalPaymentIdentifier : String?
 	let lastFourDigitOfBankAccountNumber : String
 
 	enum CodingKeys: String, CodingKey {
@@ -42,7 +42,7 @@ struct ReportSummaries : Codable {
 		isPaymentExpected = try values.decode(Bool.self, forKey: .isPaymentExpected)
 		paidOrExpectingPaymentDate = try values.decode(String.self, forKey: .paidOrExpectingPaymentDate)
 		proceedsByRegion = try values.decode([ProceedsByRegion].self, forKey: .proceedsByRegion)
-		externalPaymentIdentifier = try values.decode(String.self, forKey: .externalPaymentIdentifier)
+		externalPaymentIdentifier = try values.decodeIfPresent(String.self, forKey: .externalPaymentIdentifier)
 		lastFourDigitOfBankAccountNumber = try values.decode(String.self, forKey: .lastFourDigitOfBankAccountNumber)
 	}
 

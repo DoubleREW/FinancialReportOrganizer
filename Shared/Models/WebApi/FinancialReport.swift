@@ -56,3 +56,9 @@ struct FinancialReport : Codable {
 	}
 
 }
+
+extension FinancialReport : Identifiable {
+    var id: String {
+        return "\(sapVendorNumber)_\(reportDate)"
+    }
+}
