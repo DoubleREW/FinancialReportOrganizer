@@ -1,0 +1,873 @@
+{
+    "vendorName": "Awesome Apps Inc.",
+    "sapVendorNumber": 12345678,
+    "lastSoldUnit": 0,
+    "reportDate": "2022-06-01T00:00:00Z",
+    "updatedDate": "2022-07-27T00:00:00Z",
+    "isPooled": false,
+    "isArcadeVendor": false,
+    "providerId": 987654,
+    "hasConsolidatedReport": true,
+    "hasDetailedConsolidatedReport": true,
+    "hasSingaporeGSTReport": false,
+    "hasMalaysianSSTReport": false,
+    "hasThailandTOCReport": false,
+    "hasVendorTaxReport": false,
+    "reportSummaries": [
+        {
+            "status": "PAID",
+            "returnMessage": null,
+            "rejectMessageKey": null,
+            "amount": "535.99",
+            "currency": "EUR",
+            "bankName": "BANK S.P.A.",
+            "maskedBankAccount": "****1234",
+            "isPaymentExpected": false,
+            "paidOrExpectingPaymentDate": "2022-07-28T12:00:00Z",
+            "proceedsByRegion": [
+                {
+                    "regionCurrency": {
+                        "regionCurrencyId": 10074,
+                        "regionId": 10054,
+                        "regionCode": "AE",
+                        "regionName": "United Arab Emirates",
+                        "regionNameKey": "ITC.Financial.MZPaymentConsolidation.region.AE",
+                        "currencyCode": "AED"
+                    },
+                    "financialReportType": "D",
+                    "unitsSold": 1,
+                    "beginBalance": "",
+                    "earned": "8.90",
+                    "total": "8.90",
+                    "taxesAndFees": "0",
+                    "withHoldingTax": "0",
+                    "withHoldingTaxAndAdjustment": "0.00",
+                    "inputTax": "0",
+                    "inputTaxDetails": [],
+                    "adjustmentAmount": "0",
+                    "totalOwed": "8.90",
+                    "exchangeRate": "0.26517",
+                    "proceeds": "2.36",
+                    "availableReportTypes": [
+                        {
+                            "name": "APP_STORE_REPORT",
+                            "displayKey": "ITC.Financial.MZPaymentConsolidation.reportType.APP_STORE_REPORT"
+                        }
+                    ]
+                },
+                {
+                    "regionCurrency": {
+                        "regionCurrencyId": 10005,
+                        "regionId": 10005,
+                        "regionCode": "AU",
+                        "regionName": "Australia",
+                        "regionNameKey": "ITC.Financial.MZPaymentConsolidation.region.AU",
+                        "currencyCode": "AUD"
+                    },
+                    "financialReportType": "D",
+                    "unitsSold": 13,
+                    "beginBalance": "",
+                    "earned": "32.35",
+                    "total": "32.35",
+                    "taxesAndFees": "0",
+                    "withHoldingTax": "0",
+                    "withHoldingTaxAndAdjustment": "0.00",
+                    "inputTax": "0",
+                    "inputTaxDetails": [],
+                    "adjustmentAmount": "0",
+                    "totalOwed": "32.35",
+                    "exchangeRate": "0.67728",
+                    "proceeds": "21.91",
+                    "availableReportTypes": [
+                        {
+                            "name": "APP_STORE_REPORT",
+                            "displayKey": "ITC.Financial.MZPaymentConsolidation.reportType.APP_STORE_REPORT"
+                        }
+                    ]
+                },
+                {
+                    "regionCurrency": {
+                        "regionCurrencyId": 110123,
+                        "regionId": 110103,
+                        "regionCode": "BG",
+                        "regionName": "Bulgaria",
+                        "regionNameKey": "ITC.Financial.MZPaymentConsolidation.region.BG",
+                        "currencyCode": "BGN"
+                    },
+                    "financialReportType": "D",
+                    "unitsSold": 1,
+                    "beginBalance": "",
+                    "earned": "3.18",
+                    "total": "3.18",
+                    "taxesAndFees": "0",
+                    "withHoldingTax": "0",
+                    "withHoldingTaxAndAdjustment": "0.00",
+                    "inputTax": "0",
+                    "inputTaxDetails": [],
+                    "adjustmentAmount": "0",
+                    "totalOwed": "3.18",
+                    "exchangeRate": "0.51258",
+                    "proceeds": "1.63",
+                    "availableReportTypes": [
+                        {
+                            "name": "APP_STORE_REPORT",
+                            "displayKey": "ITC.Financial.MZPaymentConsolidation.reportType.APP_STORE_REPORT"
+                        }
+                    ]
+                },
+                {
+                    "regionCurrency": {
+                        "regionCurrencyId": 10075,
+                        "regionId": 10055,
+                        "regionCode": "BR",
+                        "regionName": "Brazil",
+                        "regionNameKey": "ITC.Financial.MZPaymentConsolidation.region.BR",
+                        "currencyCode": "BRL"
+                    },
+                    "financialReportType": "D",
+                    "unitsSold": 2,
+                    "beginBalance": "",
+                    "earned": "28.74",
+                    "total": "28.74",
+                    "taxesAndFees": "0",
+                    "withHoldingTax": "0",
+                    "withHoldingTaxAndAdjustment": "0",
+                    "inputTax": "0",
+                    "inputTaxDetails": [],
+                    "adjustmentAmount": "0",
+                    "totalOwed": "28.74",
+                    "exchangeRate": "0.18302",
+                    "proceeds": "5.26",
+                    "availableReportTypes": [
+                        {
+                            "name": "APP_STORE_REPORT",
+                            "displayKey": "ITC.Financial.MZPaymentConsolidation.reportType.APP_STORE_REPORT"
+                        }
+                    ]
+                },
+                {
+                    "regionCurrency": {
+                        "regionCurrencyId": 10001,
+                        "regionId": 10001,
+                        "regionCode": "CA",
+                        "regionName": "Canada",
+                        "regionNameKey": "ITC.Financial.MZPaymentConsolidation.region.CA",
+                        "currencyCode": "CAD"
+                    },
+                    "financialReportType": "D",
+                    "unitsSold": 14,
+                    "beginBalance": "",
+                    "earned": "33.86",
+                    "total": "33.86",
+                    "taxesAndFees": "0",
+                    "withHoldingTax": "0",
+                    "withHoldingTaxAndAdjustment": "0.00",
+                    "inputTax": "0",
+                    "inputTaxDetails": [],
+                    "adjustmentAmount": "0",
+                    "totalOwed": "33.86",
+                    "exchangeRate": "0.75665",
+                    "proceeds": "25.62",
+                    "availableReportTypes": [
+                        {
+                            "name": "APP_STORE_REPORT",
+                            "displayKey": "ITC.Financial.MZPaymentConsolidation.reportType.APP_STORE_REPORT"
+                        }
+                    ]
+                },
+                {
+                    "regionCurrency": {
+                        "regionCurrencyId": 10020,
+                        "regionId": 10020,
+                        "regionCode": "CH",
+                        "regionName": "Switzerland",
+                        "regionNameKey": "ITC.Financial.MZPaymentConsolidation.region.CH",
+                        "currencyCode": "CHF"
+                    },
+                    "financialReportType": "D",
+                    "unitsSold": 8,
+                    "beginBalance": "",
+                    "earned": "12.64",
+                    "total": "12.64",
+                    "taxesAndFees": "0",
+                    "withHoldingTax": "0",
+                    "withHoldingTaxAndAdjustment": "0.00",
+                    "inputTax": "0",
+                    "inputTaxDetails": [],
+                    "adjustmentAmount": "0",
+                    "totalOwed": "12.64",
+                    "exchangeRate": "1.01266",
+                    "proceeds": "12.80",
+                    "availableReportTypes": [
+                        {
+                            "name": "APP_STORE_REPORT",
+                            "displayKey": "ITC.Financial.MZPaymentConsolidation.reportType.APP_STORE_REPORT"
+                        }
+                    ]
+                },
+                {
+                    "regionCurrency": {
+                        "regionCurrencyId": 110130,
+                        "regionId": 110109,
+                        "regionCode": "CL",
+                        "regionName": "Chile",
+                        "regionNameKey": "ITC.Financial.MZPaymentConsolidation.region.CL",
+                        "currencyCode": "CLP"
+                    },
+                    "financialReportType": "D",
+                    "unitsSold": 4,
+                    "beginBalance": "",
+                    "earned": "6286.00",
+                    "total": "6286.00",
+                    "taxesAndFees": "0",
+                    "withHoldingTax": "0",
+                    "withHoldingTaxAndAdjustment": "0.00",
+                    "inputTax": "0",
+                    "inputTaxDetails": [],
+                    "adjustmentAmount": "0",
+                    "totalOwed": "6286.00",
+                    "exchangeRate": "0.00107",
+                    "proceeds": "6.70",
+                    "availableReportTypes": [
+                        {
+                            "name": "APP_STORE_REPORT",
+                            "displayKey": "ITC.Financial.MZPaymentConsolidation.reportType.APP_STORE_REPORT"
+                        }
+                    ]
+                },
+                {
+                    "regionCurrency": {
+                        "regionCurrencyId": 10063,
+                        "regionId": 10043,
+                        "regionCode": "CN",
+                        "regionName": "China",
+                        "regionNameKey": "ITC.Financial.MZPaymentConsolidation.region.CN",
+                        "currencyCode": "CNY"
+                    },
+                    "financialReportType": "D",
+                    "unitsSold": 4,
+                    "beginBalance": "",
+                    "earned": "50.54",
+                    "total": "50.54",
+                    "taxesAndFees": "0",
+                    "withHoldingTax": "0",
+                    "withHoldingTaxAndAdjustment": "0.00",
+                    "inputTax": "0",
+                    "inputTaxDetails": [],
+                    "adjustmentAmount": "0",
+                    "totalOwed": "50.54",
+                    "exchangeRate": "0.14424",
+                    "proceeds": "7.29",
+                    "availableReportTypes": [
+                        {
+                            "name": "APP_STORE_REPORT",
+                            "displayKey": "ITC.Financial.MZPaymentConsolidation.reportType.APP_STORE_REPORT"
+                        }
+                    ]
+                },
+                {
+                    "regionCurrency": {
+                        "regionCurrencyId": 110126,
+                        "regionId": 110105,
+                        "regionCode": "CZ",
+                        "regionName": "Czech Republic",
+                        "regionNameKey": "ITC.Financial.MZPaymentConsolidation.region.CZ",
+                        "currencyCode": "CZK"
+                    },
+                    "financialReportType": "D",
+                    "unitsSold": 2,
+                    "beginBalance": "",
+                    "earned": "89.92",
+                    "total": "89.92",
+                    "taxesAndFees": "0",
+                    "withHoldingTax": "0",
+                    "withHoldingTaxAndAdjustment": "0.00",
+                    "inputTax": "0",
+                    "inputTaxDetails": [],
+                    "adjustmentAmount": "0",
+                    "totalOwed": "89.92",
+                    "exchangeRate": "0.04081",
+                    "proceeds": "3.67",
+                    "availableReportTypes": [
+                        {
+                            "name": "APP_STORE_REPORT",
+                            "displayKey": "ITC.Financial.MZPaymentConsolidation.reportType.APP_STORE_REPORT"
+                        }
+                    ]
+                },
+                {
+                    "regionCurrency": {
+                        "regionCurrencyId": 10003,
+                        "regionId": 10003,
+                        "regionCode": "EU",
+                        "regionName": "Euro-Zone",
+                        "regionNameKey": "ITC.Financial.MZPaymentConsolidation.region.EU",
+                        "currencyCode": "EUR"
+                    },
+                    "financialReportType": "D",
+                    "unitsSold": 87,
+                    "beginBalance": "",
+                    "earned": "128.02",
+                    "total": "128.02",
+                    "taxesAndFees": "0",
+                    "withHoldingTax": "0",
+                    "withHoldingTaxAndAdjustment": "0.00",
+                    "inputTax": "0",
+                    "inputTaxDetails": [],
+                    "adjustmentAmount": "0",
+                    "totalOwed": "128.02",
+                    "exchangeRate": "1.00000",
+                    "proceeds": "128.02",
+                    "availableReportTypes": [
+                        {
+                            "name": "APP_STORE_REPORT",
+                            "displayKey": "ITC.Financial.MZPaymentConsolidation.reportType.APP_STORE_REPORT"
+                        }
+                    ]
+                },
+                {
+                    "regionCurrency": {
+                        "regionCurrencyId": 10004,
+                        "regionId": 10004,
+                        "regionCode": "GB",
+                        "regionName": "United Kingdom",
+                        "regionNameKey": "ITC.Financial.MZPaymentConsolidation.region.GB",
+                        "currencyCode": "GBP"
+                    },
+                    "financialReportType": "D",
+                    "unitsSold": 7,
+                    "beginBalance": "",
+                    "earned": "9.69",
+                    "total": "9.69",
+                    "taxesAndFees": "0",
+                    "withHoldingTax": "0",
+                    "withHoldingTaxAndAdjustment": "0.00",
+                    "inputTax": "0",
+                    "inputTaxDetails": [],
+                    "adjustmentAmount": "0",
+                    "totalOwed": "9.69",
+                    "exchangeRate": "1.17441",
+                    "proceeds": "11.38",
+                    "availableReportTypes": [
+                        {
+                            "name": "APP_STORE_REPORT",
+                            "displayKey": "ITC.Financial.MZPaymentConsolidation.reportType.APP_STORE_REPORT"
+                        }
+                    ]
+                },
+                {
+                    "regionCurrency": {
+                        "regionCurrencyId": 10064,
+                        "regionId": 10044,
+                        "regionCode": "HK",
+                        "regionName": "Hong Kong",
+                        "regionNameKey": "ITC.Financial.MZPaymentConsolidation.region.HK",
+                        "currencyCode": "HKD"
+                    },
+                    "financialReportType": "D",
+                    "unitsSold": 3,
+                    "beginBalance": "",
+                    "earned": "38.25",
+                    "total": "38.25",
+                    "taxesAndFees": "0",
+                    "withHoldingTax": "0",
+                    "withHoldingTaxAndAdjustment": "0.00",
+                    "inputTax": "0",
+                    "inputTaxDetails": [],
+                    "adjustmentAmount": "0",
+                    "totalOwed": "38.25",
+                    "exchangeRate": "0.12392",
+                    "proceeds": "4.74",
+                    "availableReportTypes": [
+                        {
+                            "name": "APP_STORE_REPORT",
+                            "displayKey": "ITC.Financial.MZPaymentConsolidation.reportType.APP_STORE_REPORT"
+                        }
+                    ]
+                },
+                {
+                    "regionCurrency": {
+                        "regionCurrencyId": 110125,
+                        "regionId": 110111,
+                        "regionCode": "HU",
+                        "regionName": "Hungary",
+                        "regionNameKey": "ITC.Financial.MZPaymentConsolidation.region.HU",
+                        "currencyCode": "HUF"
+                    },
+                    "financialReportType": "D",
+                    "unitsSold": 2,
+                    "beginBalance": "",
+                    "earned": "1070.00",
+                    "total": "1070.00",
+                    "taxesAndFees": "0",
+                    "withHoldingTax": "0",
+                    "withHoldingTaxAndAdjustment": "0.00",
+                    "inputTax": "0",
+                    "inputTaxDetails": [],
+                    "adjustmentAmount": "0",
+                    "totalOwed": "1070.00",
+                    "exchangeRate": "0.00251",
+                    "proceeds": "2.69",
+                    "availableReportTypes": [
+                        {
+                            "name": "APP_STORE_REPORT",
+                            "displayKey": "ITC.Financial.MZPaymentConsolidation.reportType.APP_STORE_REPORT"
+                        }
+                    ]
+                },
+                {
+                    "regionCurrency": {
+                        "regionCurrencyId": 10068,
+                        "regionId": 10048,
+                        "regionCode": "ID",
+                        "regionName": "Indonesia",
+                        "regionNameKey": "ITC.Financial.MZPaymentConsolidation.region.ID",
+                        "currencyCode": "IDR"
+                    },
+                    "financialReportType": "D",
+                    "unitsSold": 1,
+                    "beginBalance": "",
+                    "earned": "26802.00",
+                    "total": "26802.00",
+                    "taxesAndFees": "0",
+                    "withHoldingTax": "0",
+                    "withHoldingTaxAndAdjustment": "0.00",
+                    "inputTax": "0",
+                    "inputTaxDetails": [],
+                    "adjustmentAmount": "0",
+                    "totalOwed": "26802.00",
+                    "exchangeRate": "0.00007",
+                    "proceeds": "1.77",
+                    "availableReportTypes": [
+                        {
+                            "name": "APP_STORE_REPORT",
+                            "displayKey": "ITC.Financial.MZPaymentConsolidation.reportType.APP_STORE_REPORT"
+                        }
+                    ]
+                },
+                {
+                    "regionCurrency": {
+                        "regionCurrencyId": 10069,
+                        "regionId": 10049,
+                        "regionCode": "IL",
+                        "regionName": "Israel",
+                        "regionNameKey": "ITC.Financial.MZPaymentConsolidation.region.IL",
+                        "currencyCode": "ILS"
+                    },
+                    "financialReportType": "D",
+                    "unitsSold": 1,
+                    "beginBalance": "",
+                    "earned": "5.87",
+                    "total": "5.87",
+                    "taxesAndFees": "0",
+                    "withHoldingTax": "0",
+                    "withHoldingTaxAndAdjustment": "0.00",
+                    "inputTax": "0",
+                    "inputTaxDetails": [],
+                    "adjustmentAmount": "0",
+                    "totalOwed": "5.87",
+                    "exchangeRate": "0.28620",
+                    "proceeds": "1.68",
+                    "availableReportTypes": [
+                        {
+                            "name": "APP_STORE_REPORT",
+                            "displayKey": "ITC.Financial.MZPaymentConsolidation.reportType.APP_STORE_REPORT"
+                        }
+                    ]
+                },
+                {
+                    "regionCurrency": {
+                        "regionCurrencyId": 10006,
+                        "regionId": 10006,
+                        "regionCode": "JP",
+                        "regionName": "Japan",
+                        "regionNameKey": "ITC.Financial.MZPaymentConsolidation.region.JP",
+                        "currencyCode": "JPY"
+                    },
+                    "financialReportType": "D",
+                    "unitsSold": 16,
+                    "beginBalance": "",
+                    "earned": "3399.00",
+                    "total": "3399.00",
+                    "taxesAndFees": "0",
+                    "withHoldingTax": "0",
+                    "withHoldingTaxAndAdjustment": "0.00",
+                    "inputTax": "0",
+                    "inputTaxDetails": [],
+                    "adjustmentAmount": "0",
+                    "totalOwed": "3399.00",
+                    "exchangeRate": "0.00715",
+                    "proceeds": "24.30",
+                    "availableReportTypes": [
+                        {
+                            "name": "APP_STORE_REPORT",
+                            "displayKey": "ITC.Financial.MZPaymentConsolidation.reportType.APP_STORE_REPORT"
+                        }
+                    ]
+                },
+                {
+                    "regionCurrency": {
+                        "regionCurrencyId": 10008,
+                        "regionId": 10008,
+                        "regionCode": "MX",
+                        "regionName": "Mexico",
+                        "regionNameKey": "ITC.Financial.MZPaymentConsolidation.region.MX",
+                        "currencyCode": "MXN"
+                    },
+                    "financialReportType": "D",
+                    "unitsSold": 2,
+                    "beginBalance": "",
+                    "earned": "71.82",
+                    "total": "71.82",
+                    "taxesAndFees": "0",
+                    "withHoldingTax": "0",
+                    "withHoldingTaxAndAdjustment": "0.00",
+                    "inputTax": "0",
+                    "inputTaxDetails": [],
+                    "adjustmentAmount": "0",
+                    "totalOwed": "71.82",
+                    "exchangeRate": "0.04706",
+                    "proceeds": "3.38",
+                    "availableReportTypes": [
+                        {
+                            "name": "APP_STORE_REPORT",
+                            "displayKey": "ITC.Financial.MZPaymentConsolidation.reportType.APP_STORE_REPORT"
+                        }
+                    ]
+                },
+                {
+                    "regionCurrency": {
+                        "regionCurrencyId": 110103,
+                        "regionId": 110083,
+                        "regionCode": "MY",
+                        "regionName": "Malaysia",
+                        "regionNameKey": "ITC.Financial.MZPaymentConsolidation.region.MY",
+                        "currencyCode": "MYR"
+                    },
+                    "financialReportType": "D",
+                    "unitsSold": 1,
+                    "beginBalance": "",
+                    "earned": "6.33",
+                    "total": "6.33",
+                    "taxesAndFees": "0",
+                    "withHoldingTax": "0",
+                    "withHoldingTaxAndAdjustment": "0.00",
+                    "inputTax": "0",
+                    "inputTaxDetails": [],
+                    "adjustmentAmount": "0",
+                    "totalOwed": "6.33",
+                    "exchangeRate": "0.22433",
+                    "proceeds": "1.42",
+                    "availableReportTypes": [
+                        {
+                            "name": "APP_STORE_REPORT",
+                            "displayKey": "ITC.Financial.MZPaymentConsolidation.reportType.APP_STORE_REPORT"
+                        }
+                    ]
+                },
+                {
+                    "regionCurrency": {
+                        "regionCurrencyId": 110105,
+                        "regionId": 110085,
+                        "regionCode": "PH",
+                        "regionName": "Philippines",
+                        "regionNameKey": "ITC.Financial.MZPaymentConsolidation.region.PH",
+                        "currencyCode": "PHP"
+                    },
+                    "financialReportType": "D",
+                    "unitsSold": 1,
+                    "beginBalance": "",
+                    "earned": "84.15",
+                    "total": "84.15",
+                    "taxesAndFees": "0",
+                    "withHoldingTax": "0",
+                    "withHoldingTaxAndAdjustment": "0.00",
+                    "inputTax": "0",
+                    "inputTaxDetails": [],
+                    "adjustmentAmount": "0",
+                    "totalOwed": "84.15",
+                    "exchangeRate": "0.01771",
+                    "proceeds": "1.49",
+                    "availableReportTypes": [
+                        {
+                            "name": "APP_STORE_REPORT",
+                            "displayKey": "ITC.Financial.MZPaymentConsolidation.reportType.APP_STORE_REPORT"
+                        }
+                    ]
+                },
+                {
+                    "regionCurrency": {
+                        "regionCurrencyId": 110127,
+                        "regionId": 110106,
+                        "regionCode": "PL",
+                        "regionName": "Poland",
+                        "regionNameKey": "ITC.Financial.MZPaymentConsolidation.region.PL",
+                        "currencyCode": "PLN"
+                    },
+                    "financialReportType": "D",
+                    "unitsSold": 3,
+                    "beginBalance": "",
+                    "earned": "22.79",
+                    "total": "22.79",
+                    "taxesAndFees": "0",
+                    "withHoldingTax": "0",
+                    "withHoldingTaxAndAdjustment": "0.00",
+                    "inputTax": "0",
+                    "inputTaxDetails": [],
+                    "adjustmentAmount": "0",
+                    "totalOwed": "22.79",
+                    "exchangeRate": "0.21018",
+                    "proceeds": "4.79",
+                    "availableReportTypes": [
+                        {
+                            "name": "APP_STORE_REPORT",
+                            "displayKey": "ITC.Financial.MZPaymentConsolidation.reportType.APP_STORE_REPORT"
+                        }
+                    ]
+                },
+                {
+                    "regionCurrency": {
+                        "regionCurrencyId": 110128,
+                        "regionId": 110107,
+                        "regionCode": "RO",
+                        "regionName": "Romania",
+                        "regionNameKey": "ITC.Financial.MZPaymentConsolidation.region.RO",
+                        "currencyCode": "RON"
+                    },
+                    "financialReportType": "D",
+                    "unitsSold": 1,
+                    "beginBalance": "",
+                    "earned": "7.14",
+                    "total": "7.14",
+                    "taxesAndFees": "0",
+                    "withHoldingTax": "0",
+                    "withHoldingTaxAndAdjustment": "0.00",
+                    "inputTax": "0",
+                    "inputTaxDetails": [],
+                    "adjustmentAmount": "0",
+                    "totalOwed": "7.14",
+                    "exchangeRate": "0.20308",
+                    "proceeds": "1.45",
+                    "availableReportTypes": [
+                        {
+                            "name": "APP_STORE_REPORT",
+                            "displayKey": "ITC.Financial.MZPaymentConsolidation.reportType.APP_STORE_REPORT"
+                        }
+                    ]
+                },
+                {
+                    "regionCurrency": {
+                        "regionCurrencyId": 10071,
+                        "regionId": 10051,
+                        "regionCode": "SA",
+                        "regionName": "Saudi Arabia",
+                        "regionNameKey": "ITC.Financial.MZPaymentConsolidation.region.SA",
+                        "currencyCode": "SAR"
+                    },
+                    "financialReportType": "D",
+                    "unitsSold": 3,
+                    "beginBalance": "",
+                    "earned": "14.04",
+                    "total": "14.04",
+                    "taxesAndFees": "0",
+                    "withHoldingTax": "0",
+                    "withHoldingTaxAndAdjustment": "0.00",
+                    "inputTax": "0",
+                    "inputTaxDetails": [],
+                    "adjustmentAmount": "0",
+                    "totalOwed": "14.04",
+                    "exchangeRate": "0.25855",
+                    "proceeds": "3.63",
+                    "availableReportTypes": [
+                        {
+                            "name": "APP_STORE_REPORT",
+                            "displayKey": "ITC.Financial.MZPaymentConsolidation.reportType.APP_STORE_REPORT"
+                        }
+                    ]
+                },
+                {
+                    "regionCurrency": {
+                        "regionCurrencyId": 10061,
+                        "regionId": 10041,
+                        "regionCode": "SE",
+                        "regionName": "Sweden",
+                        "regionNameKey": "ITC.Financial.MZPaymentConsolidation.region.SE",
+                        "currencyCode": "SEK"
+                    },
+                    "financialReportType": "D",
+                    "unitsSold": 6,
+                    "beginBalance": "",
+                    "earned": "82.28",
+                    "total": "82.28",
+                    "taxesAndFees": "0",
+                    "withHoldingTax": "0",
+                    "withHoldingTaxAndAdjustment": "0.00",
+                    "inputTax": "0",
+                    "inputTaxDetails": [],
+                    "adjustmentAmount": "0",
+                    "totalOwed": "82.28",
+                    "exchangeRate": "0.09589",
+                    "proceeds": "7.89",
+                    "availableReportTypes": [
+                        {
+                            "name": "APP_STORE_REPORT",
+                            "displayKey": "ITC.Financial.MZPaymentConsolidation.reportType.APP_STORE_REPORT"
+                        }
+                    ]
+                },
+                {
+                    "regionCurrency": {
+                        "regionCurrencyId": 10076,
+                        "regionId": 10056,
+                        "regionCode": "TH",
+                        "regionName": "Thailand",
+                        "regionNameKey": "ITC.Financial.MZPaymentConsolidation.region.TH",
+                        "currencyCode": "THB"
+                    },
+                    "financialReportType": "D",
+                    "unitsSold": 1,
+                    "beginBalance": "",
+                    "earned": "54.81",
+                    "total": "54.81",
+                    "taxesAndFees": "0",
+                    "withHoldingTax": "0",
+                    "withHoldingTaxAndAdjustment": "0.00",
+                    "inputTax": "0",
+                    "inputTaxDetails": [],
+                    "adjustmentAmount": "0",
+                    "totalOwed": "54.81",
+                    "exchangeRate": "0.02664",
+                    "proceeds": "1.46",
+                    "availableReportTypes": [
+                        {
+                            "name": "APP_STORE_REPORT",
+                            "displayKey": "ITC.Financial.MZPaymentConsolidation.reportType.APP_STORE_REPORT"
+                        }
+                    ]
+                },
+                {
+                    "regionCurrency": {
+                        "regionCurrencyId": 10000,
+                        "regionId": 10000,
+                        "regionCode": "US",
+                        "regionName": "Americas",
+                        "regionNameKey": "ITC.Financial.MZPaymentConsolidation.region.US",
+                        "currencyCode": "USD"
+                    },
+                    "financialReportType": "D",
+                    "unitsSold": 134,
+                    "beginBalance": "",
+                    "earned": "245.16",
+                    "total": "245.16",
+                    "taxesAndFees": "0",
+                    "withHoldingTax": "0",
+                    "withHoldingTaxAndAdjustment": "0.00",
+                    "inputTax": "0",
+                    "inputTaxDetails": [],
+                    "adjustmentAmount": "0",
+                    "totalOwed": "245.16",
+                    "exchangeRate": "0.97438",
+                    "proceeds": "238.88",
+                    "availableReportTypes": [
+                        {
+                            "name": "APP_STORE_REPORT",
+                            "displayKey": "ITC.Financial.MZPaymentConsolidation.reportType.APP_STORE_REPORT"
+                        }
+                    ]
+                },
+                {
+                    "regionCurrency": {
+                        "regionCurrencyId": 110273,
+                        "regionId": 110268,
+                        "regionCode": "LL",
+                        "regionName": "Latin America and the Caribbean",
+                        "regionNameKey": "ITC.Financial.MZPaymentConsolidation.region.LL",
+                        "currencyCode": "USD"
+                    },
+                    "financialReportType": "D",
+                    "unitsSold": 1,
+                    "beginBalance": "",
+                    "earned": "1.69",
+                    "total": "1.69",
+                    "taxesAndFees": "0",
+                    "withHoldingTax": "0",
+                    "withHoldingTaxAndAdjustment": "0.00",
+                    "inputTax": "0",
+                    "inputTaxDetails": [],
+                    "adjustmentAmount": "0",
+                    "totalOwed": "1.69",
+                    "exchangeRate": "0.97633",
+                    "proceeds": "1.65",
+                    "availableReportTypes": [
+                        {
+                            "name": "APP_STORE_REPORT",
+                            "displayKey": "ITC.Financial.MZPaymentConsolidation.reportType.APP_STORE_REPORT"
+                        }
+                    ]
+                },
+                {
+                    "regionCurrency": {
+                        "regionCurrencyId": 10002,
+                        "regionId": 10002,
+                        "regionCode": "WW",
+                        "regionName": "Rest of World",
+                        "regionNameKey": "ITC.Financial.MZPaymentConsolidation.region.WW",
+                        "currencyCode": "USD"
+                    },
+                    "financialReportType": "D",
+                    "unitsSold": 3,
+                    "beginBalance": "",
+                    "earned": "5.44",
+                    "total": "5.44",
+                    "taxesAndFees": "0",
+                    "withHoldingTax": "0",
+                    "withHoldingTaxAndAdjustment": "0.00",
+                    "inputTax": "0",
+                    "inputTaxDetails": [],
+                    "adjustmentAmount": "0",
+                    "totalOwed": "5.44",
+                    "exchangeRate": "0.97426",
+                    "proceeds": "5.30",
+                    "availableReportTypes": [
+                        {
+                            "name": "APP_STORE_REPORT",
+                            "displayKey": "ITC.Financial.MZPaymentConsolidation.reportType.APP_STORE_REPORT"
+                        }
+                    ]
+                },
+                {
+                    "regionCurrency": {
+                        "regionCurrencyId": 10072,
+                        "regionId": 10052,
+                        "regionCode": "ZA",
+                        "regionName": "South Africa",
+                        "regionNameKey": "ITC.Financial.MZPaymentConsolidation.region.ZA",
+                        "currencyCode": "ZAR"
+                    },
+                    "financialReportType": "D",
+                    "unitsSold": 2,
+                    "beginBalance": "",
+                    "earned": "48.76",
+                    "total": "48.76",
+                    "taxesAndFees": "0",
+                    "withHoldingTax": "0",
+                    "withHoldingTaxAndAdjustment": "0.00",
+                    "inputTax": "0",
+                    "inputTaxDetails": [],
+                    "adjustmentAmount": "0",
+                    "totalOwed": "48.76",
+                    "exchangeRate": "0.05804",
+                    "proceeds": "2.83",
+                    "availableReportTypes": [
+                        {
+                            "name": "APP_STORE_REPORT",
+                            "displayKey": "ITC.Financial.MZPaymentConsolidation.reportType.APP_STORE_REPORT"
+                        }
+                    ]
+                }
+            ],
+            "externalPaymentIdentifier": "912837465",
+            "lastFourDigitOfBankAccountNumber": "1234"
+        }
+    ]
+}

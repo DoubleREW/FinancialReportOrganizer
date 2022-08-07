@@ -11,7 +11,23 @@ import SwiftUI
 struct FinancialReportSplitterApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ReportsOrganizerView()
+                .frame(minWidth: 800, maxWidth: .infinity, minHeight: 500, maxHeight: .infinity)
+                .environmentObject(ReportsOrganizer.default)
+        }
+        .commands {
+            SidebarCommands()
         }
     }
 }
+
+#if DEBUG
+extension FinancialReport {
+    static var sample: FinancialReport {
+        let sampleUrl = Bundle.main.url(forResource: "sample_report", withExtension: "json")!
+        let sampleData = try! Data(contentsOf: sampleUrl)
+
+        return try! JSONDecoder().decode(FinancialReport.self, from: sampleData)
+    }
+}
+#endif

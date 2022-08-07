@@ -13,8 +13,8 @@
 		71EF64222898229600DBF8A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF64102898229300DBF8A2 /* ContentView.swift */; };
 		71EF64232898229600DBF8A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71EF64112898229600DBF8A2 /* Assets.xcassets */; };
 		71EF64242898229600DBF8A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71EF64112898229600DBF8A2 /* Assets.xcassets */; };
-		71EF642E289861F800DBF8A2 /* ConnectBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF642D289861F800DBF8A2 /* ConnectBridge.swift */; };
-		71EF642F289861F800DBF8A2 /* ConnectBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF642D289861F800DBF8A2 /* ConnectBridge.swift */; };
+		71EF642E289861F800DBF8A2 /* AscConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF642D289861F800DBF8A2 /* AscConnector.swift */; };
+		71EF642F289861F800DBF8A2 /* AscConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF642D289861F800DBF8A2 /* AscConnector.swift */; };
 		71EF64382899135A00DBF8A2 /* AvailableReportTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF64312899135A00DBF8A2 /* AvailableReportTypes.swift */; };
 		71EF64392899135A00DBF8A2 /* AvailableReportTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF64312899135A00DBF8A2 /* AvailableReportTypes.swift */; };
 		71EF643A2899135A00DBF8A2 /* FinancialReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF64322899135A00DBF8A2 /* FinancialReport.swift */; };
@@ -31,6 +31,38 @@
 		71EF64452899135A00DBF8A2 /* ReportSummaries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF64372899135A00DBF8A2 /* ReportSummaries.swift */; };
 		71EF6447289A3E1D00DBF8A2 /* LegalEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF6446289A3E1D00DBF8A2 /* LegalEntity.swift */; };
 		71EF6448289A3E1D00DBF8A2 /* LegalEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF6446289A3E1D00DBF8A2 /* LegalEntity.swift */; };
+		71EF6465289CFD7500DBF8A2 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF6464289CFD7500DBF8A2 /* Response.swift */; };
+		71EF6466289CFD7500DBF8A2 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF6464289CFD7500DBF8A2 /* Response.swift */; };
+		71EF6468289CFFEC00DBF8A2 /* UserDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF6467289CFFEC00DBF8A2 /* UserDetail.swift */; };
+		71EF6469289CFFEC00DBF8A2 /* UserDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF6467289CFFEC00DBF8A2 /* UserDetail.swift */; };
+		71EF646B289D000500DBF8A2 /* UserDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF646A289D000500DBF8A2 /* UserDetailResponse.swift */; };
+		71EF646C289D000500DBF8A2 /* UserDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF646A289D000500DBF8A2 /* UserDetailResponse.swift */; };
+		71EF646E289D004500DBF8A2 /* AssociatedAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF646D289D004500DBF8A2 /* AssociatedAccount.swift */; };
+		71EF646F289D004500DBF8A2 /* AssociatedAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF646D289D004500DBF8A2 /* AssociatedAccount.swift */; };
+		71EF6471289D005C00DBF8A2 /* ContentProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF6470289D005C00DBF8A2 /* ContentProvider.swift */; };
+		71EF6472289D005C00DBF8A2 /* ContentProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF6470289D005C00DBF8A2 /* ContentProvider.swift */; };
+		71EF6474289D01E000DBF8A2 /* SapVendorNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF6473289D01E000DBF8A2 /* SapVendorNumber.swift */; };
+		71EF6475289D01E000DBF8A2 /* SapVendorNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF6473289D01E000DBF8A2 /* SapVendorNumber.swift */; };
+		71EF6477289D020F00DBF8A2 /* SapVendorNumbersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF6476289D020F00DBF8A2 /* SapVendorNumbersResponse.swift */; };
+		71EF6478289D020F00DBF8A2 /* SapVendorNumbersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF6476289D020F00DBF8A2 /* SapVendorNumbersResponse.swift */; };
+		71EF647C289D51FA00DBF8A2 /* AscAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF647B289D51FA00DBF8A2 /* AscAuthViewController.swift */; };
+		71EF647D289D51FA00DBF8A2 /* AscAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF647B289D51FA00DBF8A2 /* AscAuthViewController.swift */; };
+		71EF6480289E42F600DBF8A2 /* ReportImportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF647F289E42F600DBF8A2 /* ReportImportView.swift */; };
+		71EF6481289E42F600DBF8A2 /* ReportImportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF647F289E42F600DBF8A2 /* ReportImportView.swift */; };
+		71EF6483289E438400DBF8A2 /* ReportsOrganizerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF6482289E438400DBF8A2 /* ReportsOrganizerView.swift */; };
+		71EF6484289E438400DBF8A2 /* ReportsOrganizerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF6482289E438400DBF8A2 /* ReportsOrganizerView.swift */; };
+		71EF6487289E44C400DBF8A2 /* ReportsSidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF6486289E44C400DBF8A2 /* ReportsSidebar.swift */; };
+		71EF6488289E44C400DBF8A2 /* ReportsSidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF6486289E44C400DBF8A2 /* ReportsSidebar.swift */; };
+		71EF648A289E451700DBF8A2 /* ReportViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF6489289E451700DBF8A2 /* ReportViewer.swift */; };
+		71EF648B289E451700DBF8A2 /* ReportViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF6489289E451700DBF8A2 /* ReportViewer.swift */; };
+		71EF648D289E46AF00DBF8A2 /* sample_report.json in Resources */ = {isa = PBXBuildFile; fileRef = 71EF648C289E46AF00DBF8A2 /* sample_report.json */; };
+		71EF648E289E46AF00DBF8A2 /* sample_report.json in Resources */ = {isa = PBXBuildFile; fileRef = 71EF648C289E46AF00DBF8A2 /* sample_report.json */; };
+		71EF6490289E484E00DBF8A2 /* EmptyReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF648F289E484E00DBF8A2 /* EmptyReportView.swift */; };
+		71EF6491289E484E00DBF8A2 /* EmptyReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF648F289E484E00DBF8A2 /* EmptyReportView.swift */; };
+		71EF6493289E4A5B00DBF8A2 /* ReportsOrganizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF6492289E4A5B00DBF8A2 /* ReportsOrganizer.swift */; };
+		71EF6494289E4A5B00DBF8A2 /* ReportsOrganizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF6492289E4A5B00DBF8A2 /* ReportsOrganizer.swift */; };
+		71EF6496289EB1B600DBF8A2 /* LazyReportViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF6495289EB1B600DBF8A2 /* LazyReportViewer.swift */; };
+		71EF6497289EB1B600DBF8A2 /* LazyReportViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF6495289EB1B600DBF8A2 /* LazyReportViewer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,7 +72,7 @@
 		71EF64162898229600DBF8A2 /* FinancialReportSplitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinancialReportSplitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71EF641C2898229600DBF8A2 /* FinancialReportSplitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinancialReportSplitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71EF641E2898229600DBF8A2 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		71EF642D289861F800DBF8A2 /* ConnectBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectBridge.swift; sourceTree = "<group>"; };
+		71EF642D289861F800DBF8A2 /* AscConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AscConnector.swift; sourceTree = "<group>"; };
 		71EF64312899135A00DBF8A2 /* AvailableReportTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvailableReportTypes.swift; sourceTree = "<group>"; };
 		71EF64322899135A00DBF8A2 /* FinancialReport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialReport.swift; sourceTree = "<group>"; };
 		71EF64332899135A00DBF8A2 /* RegionCurrency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegionCurrency.swift; sourceTree = "<group>"; };
@@ -49,6 +81,22 @@
 		71EF64362899135A00DBF8A2 /* ProceedsByRegion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProceedsByRegion.swift; sourceTree = "<group>"; };
 		71EF64372899135A00DBF8A2 /* ReportSummaries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportSummaries.swift; sourceTree = "<group>"; };
 		71EF6446289A3E1D00DBF8A2 /* LegalEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalEntity.swift; sourceTree = "<group>"; };
+		71EF6464289CFD7500DBF8A2 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		71EF6467289CFFEC00DBF8A2 /* UserDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetail.swift; sourceTree = "<group>"; };
+		71EF646A289D000500DBF8A2 /* UserDetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailResponse.swift; sourceTree = "<group>"; };
+		71EF646D289D004500DBF8A2 /* AssociatedAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssociatedAccount.swift; sourceTree = "<group>"; };
+		71EF6470289D005C00DBF8A2 /* ContentProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentProvider.swift; sourceTree = "<group>"; };
+		71EF6473289D01E000DBF8A2 /* SapVendorNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SapVendorNumber.swift; sourceTree = "<group>"; };
+		71EF6476289D020F00DBF8A2 /* SapVendorNumbersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SapVendorNumbersResponse.swift; sourceTree = "<group>"; };
+		71EF647B289D51FA00DBF8A2 /* AscAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AscAuthViewController.swift; sourceTree = "<group>"; };
+		71EF647F289E42F600DBF8A2 /* ReportImportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportImportView.swift; sourceTree = "<group>"; };
+		71EF6482289E438400DBF8A2 /* ReportsOrganizerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsOrganizerView.swift; sourceTree = "<group>"; };
+		71EF6486289E44C400DBF8A2 /* ReportsSidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsSidebar.swift; sourceTree = "<group>"; };
+		71EF6489289E451700DBF8A2 /* ReportViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewer.swift; sourceTree = "<group>"; };
+		71EF648C289E46AF00DBF8A2 /* sample_report.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample_report.json; sourceTree = "<group>"; };
+		71EF648F289E484E00DBF8A2 /* EmptyReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyReportView.swift; sourceTree = "<group>"; };
+		71EF6492289E4A5B00DBF8A2 /* ReportsOrganizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsOrganizer.swift; sourceTree = "<group>"; };
+		71EF6495289EB1B600DBF8A2 /* LazyReportViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LazyReportViewer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +129,10 @@
 		71EF640E2898229300DBF8A2 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				71EF647E289E42E200DBF8A2 /* Views */,
 				71EF64302899134900DBF8A2 /* Models */,
 				71EF640F2898229300DBF8A2 /* FinancialReportSplitterApp.swift */,
-				71EF642D289861F800DBF8A2 /* ConnectBridge.swift */,
+				71EF648C289E46AF00DBF8A2 /* sample_report.json */,
 				71EF64102898229300DBF8A2 /* ContentView.swift */,
 				71EF64112898229600DBF8A2 /* Assets.xcassets */,
 			);
@@ -110,16 +159,55 @@
 		71EF64302899134900DBF8A2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				71EF647A289D51E800DBF8A2 /* AppStoreConnectBridge */,
+				71EF6479289D027800DBF8A2 /* WebApi */,
+				71EF6446289A3E1D00DBF8A2 /* LegalEntity.swift */,
+				71EF6492289E4A5B00DBF8A2 /* ReportsOrganizer.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		71EF6479289D027800DBF8A2 /* WebApi */ = {
+			isa = PBXGroup;
+			children = (
 				71EF64312899135A00DBF8A2 /* AvailableReportTypes.swift */,
 				71EF64322899135A00DBF8A2 /* FinancialReport.swift */,
 				71EF64352899135A00DBF8A2 /* FinancialReportResponse.swift */,
+				71EF6467289CFFEC00DBF8A2 /* UserDetail.swift */,
+				71EF646A289D000500DBF8A2 /* UserDetailResponse.swift */,
+				71EF646D289D004500DBF8A2 /* AssociatedAccount.swift */,
+				71EF6470289D005C00DBF8A2 /* ContentProvider.swift */,
+				71EF6473289D01E000DBF8A2 /* SapVendorNumber.swift */,
+				71EF6476289D020F00DBF8A2 /* SapVendorNumbersResponse.swift */,
 				71EF64342899135A00DBF8A2 /* ResponseMessages.swift */,
 				71EF64362899135A00DBF8A2 /* ProceedsByRegion.swift */,
 				71EF64332899135A00DBF8A2 /* RegionCurrency.swift */,
 				71EF64372899135A00DBF8A2 /* ReportSummaries.swift */,
-				71EF6446289A3E1D00DBF8A2 /* LegalEntity.swift */,
+				71EF6464289CFD7500DBF8A2 /* Response.swift */,
 			);
-			path = Models;
+			path = WebApi;
+			sourceTree = "<group>";
+		};
+		71EF647A289D51E800DBF8A2 /* AppStoreConnectBridge */ = {
+			isa = PBXGroup;
+			children = (
+				71EF642D289861F800DBF8A2 /* AscConnector.swift */,
+				71EF647B289D51FA00DBF8A2 /* AscAuthViewController.swift */,
+			);
+			path = AppStoreConnectBridge;
+			sourceTree = "<group>";
+		};
+		71EF647E289E42E200DBF8A2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				71EF647F289E42F600DBF8A2 /* ReportImportView.swift */,
+				71EF6482289E438400DBF8A2 /* ReportsOrganizerView.swift */,
+				71EF6489289E451700DBF8A2 /* ReportViewer.swift */,
+				71EF6486289E44C400DBF8A2 /* ReportsSidebar.swift */,
+				71EF6495289EB1B600DBF8A2 /* LazyReportViewer.swift */,
+				71EF648F289E484E00DBF8A2 /* EmptyReportView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +289,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71EF648D289E46AF00DBF8A2 /* sample_report.json in Resources */,
 				71EF64232898229600DBF8A2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,6 +298,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71EF648E289E46AF00DBF8A2 /* sample_report.json in Resources */,
 				71EF64242898229600DBF8A2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,17 +310,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71EF648A289E451700DBF8A2 /* ReportViewer.swift in Sources */,
+				71EF6487289E44C400DBF8A2 /* ReportsSidebar.swift in Sources */,
+				71EF647C289D51FA00DBF8A2 /* AscAuthViewController.swift in Sources */,
 				71EF6447289A3E1D00DBF8A2 /* LegalEntity.swift in Sources */,
 				71EF643C2899135A00DBF8A2 /* RegionCurrency.swift in Sources */,
+				71EF646E289D004500DBF8A2 /* AssociatedAccount.swift in Sources */,
+				71EF6490289E484E00DBF8A2 /* EmptyReportView.swift in Sources */,
 				71EF64212898229600DBF8A2 /* ContentView.swift in Sources */,
 				71EF64442899135A00DBF8A2 /* ReportSummaries.swift in Sources */,
+				71EF6474289D01E000DBF8A2 /* SapVendorNumber.swift in Sources */,
 				71EF643A2899135A00DBF8A2 /* FinancialReport.swift in Sources */,
+				71EF6471289D005C00DBF8A2 /* ContentProvider.swift in Sources */,
 				71EF643E2899135A00DBF8A2 /* ResponseMessages.swift in Sources */,
-				71EF642E289861F800DBF8A2 /* ConnectBridge.swift in Sources */,
+				71EF642E289861F800DBF8A2 /* AscConnector.swift in Sources */,
+				71EF6477289D020F00DBF8A2 /* SapVendorNumbersResponse.swift in Sources */,
+				71EF6493289E4A5B00DBF8A2 /* ReportsOrganizer.swift in Sources */,
+				71EF6483289E438400DBF8A2 /* ReportsOrganizerView.swift in Sources */,
+				71EF6468289CFFEC00DBF8A2 /* UserDetail.swift in Sources */,
 				71EF64402899135A00DBF8A2 /* FinancialReportResponse.swift in Sources */,
 				71EF641F2898229600DBF8A2 /* FinancialReportSplitterApp.swift in Sources */,
 				71EF64382899135A00DBF8A2 /* AvailableReportTypes.swift in Sources */,
+				71EF6465289CFD7500DBF8A2 /* Response.swift in Sources */,
+				71EF646B289D000500DBF8A2 /* UserDetailResponse.swift in Sources */,
+				71EF6496289EB1B600DBF8A2 /* LazyReportViewer.swift in Sources */,
 				71EF64422899135A00DBF8A2 /* ProceedsByRegion.swift in Sources */,
+				71EF6480289E42F600DBF8A2 /* ReportImportView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,17 +343,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71EF648B289E451700DBF8A2 /* ReportViewer.swift in Sources */,
+				71EF6488289E44C400DBF8A2 /* ReportsSidebar.swift in Sources */,
+				71EF647D289D51FA00DBF8A2 /* AscAuthViewController.swift in Sources */,
 				71EF6448289A3E1D00DBF8A2 /* LegalEntity.swift in Sources */,
 				71EF643D2899135A00DBF8A2 /* RegionCurrency.swift in Sources */,
+				71EF646F289D004500DBF8A2 /* AssociatedAccount.swift in Sources */,
+				71EF6491289E484E00DBF8A2 /* EmptyReportView.swift in Sources */,
 				71EF64222898229600DBF8A2 /* ContentView.swift in Sources */,
 				71EF64452899135A00DBF8A2 /* ReportSummaries.swift in Sources */,
+				71EF6475289D01E000DBF8A2 /* SapVendorNumber.swift in Sources */,
 				71EF643B2899135A00DBF8A2 /* FinancialReport.swift in Sources */,
+				71EF6472289D005C00DBF8A2 /* ContentProvider.swift in Sources */,
 				71EF643F2899135A00DBF8A2 /* ResponseMessages.swift in Sources */,
-				71EF642F289861F800DBF8A2 /* ConnectBridge.swift in Sources */,
+				71EF642F289861F800DBF8A2 /* AscConnector.swift in Sources */,
+				71EF6478289D020F00DBF8A2 /* SapVendorNumbersResponse.swift in Sources */,
+				71EF6494289E4A5B00DBF8A2 /* ReportsOrganizer.swift in Sources */,
+				71EF6484289E438400DBF8A2 /* ReportsOrganizerView.swift in Sources */,
+				71EF6469289CFFEC00DBF8A2 /* UserDetail.swift in Sources */,
 				71EF64412899135A00DBF8A2 /* FinancialReportResponse.swift in Sources */,
 				71EF64202898229600DBF8A2 /* FinancialReportSplitterApp.swift in Sources */,
 				71EF64392899135A00DBF8A2 /* AvailableReportTypes.swift in Sources */,
+				71EF6466289CFD7500DBF8A2 /* Response.swift in Sources */,
+				71EF646C289D000500DBF8A2 /* UserDetailResponse.swift in Sources */,
+				71EF6497289EB1B600DBF8A2 /* LazyReportViewer.swift in Sources */,
 				71EF64432899135A00DBF8A2 /* ProceedsByRegion.swift in Sources */,
+				71EF6481289E42F600DBF8A2 /* ReportImportView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
