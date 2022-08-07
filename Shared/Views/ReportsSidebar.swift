@@ -17,13 +17,16 @@ struct ReportsSidebar: View {
     @State
     var vendorNumber: Int? = nil
 
+    @Binding
+    var selectedReport: ReportPreview?
+
     var months: [String] = {
         DateFormatter().monthSymbols
     }()
 
     var body: some View {
         VStack {
-            List {
+            List(selection: $selectedReport) {
                 if let vendorNumber = vendorNumber {
                     ForEach(reportsOrganizer.reportsGroups(for: vendorNumber)) { group in
                         Section(header: Text(String(format: "%ld", group.year))) {
@@ -33,6 +36,7 @@ struct ReportsSidebar: View {
                                 } label: {
                                     Text(monthLabel(reportPreview.month))
                                 }
+                                .tag(reportPreview)
                             }
                         }
                     }
@@ -73,6 +77,6 @@ struct ReportsSidebar: View {
 
 struct ReportsSidebar_Previews: PreviewProvider {
     static var previews: some View {
-        ReportsSidebar()
+        ReportsSidebar(selectedReport: .constant(nil))
     }
 }

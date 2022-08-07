@@ -6,13 +6,14 @@
 //
 
 import SwiftUI
+import Combine
 
 struct ReportsOrganizerView: View {
     @StateObject var vm = ViewModel()
 
     var body: some View {
         NavigationView {
-            ReportsSidebar()
+            ReportsSidebar(selectedReport: $vm.activeReport)
             EmptyReportView()
         }
         .sheet(isPresented: $vm.isImportReportViewVisible, content: {
@@ -49,6 +50,10 @@ extension ReportsOrganizerView {
     @MainActor
     class ViewModel : ObservableObject {
         private var reportsOrganizer: ReportsOrganizer
+        private var subscriptions = Set<AnyCancellable>()
+
+        @Published
+        var activeReport: ReportPreview? = nil
 
         @Published
         var isImportReportViewVisible: Bool = false
@@ -58,6 +63,15 @@ extension ReportsOrganizerView {
 
         init(reportsOrganizer: ReportsOrganizer = .default) {
             self.reportsOrganizer = reportsOrganizer
+
+            self.reportsOrganizer.events
+                .subscribe(on: DispatchQueue.main)
+                .sink { [weak self] event in
+                    if case .delete(_) = event {
+                        self?.activeReport = nil
+                    }
+                }
+                .store(in: &subscriptions)
         }
 
         func toggleSidebar() {

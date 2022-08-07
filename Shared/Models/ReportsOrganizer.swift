@@ -6,8 +6,9 @@
 //
 
 import Foundation
+import Combine
 
-struct ReportsGroup : Identifiable {
+struct ReportsGroup : Identifiable, Hashable {
     let vendor: Int
     let year: Int
     let reports: [ReportPreview]
@@ -17,7 +18,7 @@ struct ReportsGroup : Identifiable {
     }
 }
 
-struct ReportPreview : Identifiable {
+struct ReportPreview : Identifiable, Hashable {
     let vendor: Int
     let year: Int
     let month: Int
@@ -32,6 +33,12 @@ class ReportsOrganizer : ObservableObject {
     static var `default`: ReportsOrganizer = {
         ReportsOrganizer()
     }()
+
+    var events: PassthroughSubject<Event, Never> = .init()
+
+    enum Event {
+        case add(FinancialReport), delete(URL)
+    }
 
     enum ImportError : Error {
         case invalidFile(Error)
@@ -100,6 +107,7 @@ class ReportsOrganizer : ObservableObject {
         }
 
         objectWillChange.send()
+        events.send(.add(report))
     }
 
     func deleteReport(_ report: FinancialReport) -> Bool {
@@ -120,6 +128,7 @@ class ReportsOrganizer : ObservableObject {
         }
 
         objectWillChange.send()
+        events.send(.delete(reportUrl))
 
         return true
     }
@@ -155,7 +164,7 @@ class ReportsOrganizer : ObservableObject {
             let avbMonths = docs.map {
                 (month: Int(String($0.deletingPathExtension().deletingPathExtension().lastPathComponent.split(separator: "_").last!)), url: $0)
             }.filter { $0.month != nil } as! [(month: Int, url: URL)]
-            avbMonthsPerYear[year] = avbMonths.sorted(by: { $0.month < $1.month })
+            avbMonthsPerYear[year] = avbMonths.sorted(by: { $0.month > $1.month })
         }
 
         return avbYears
