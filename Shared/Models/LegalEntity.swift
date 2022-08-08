@@ -1,6 +1,6 @@
 //
 //  LegalEntity.swift
-//  FinancialReportSplitter
+//  FinancialReportOrganizer
 //
 //  Created by Fausto Ristagno on 03/08/22.
 //

@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		71EF64202898229600DBF8A2 /* FinancialReportSplitterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF640F2898229300DBF8A2 /* FinancialReportSplitterApp.swift */; };
-		71EF64222898229600DBF8A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF64102898229300DBF8A2 /* ContentView.swift */; };
+		71EF64202898229600DBF8A2 /* FinancialReportOrganizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF640F2898229300DBF8A2 /* FinancialReportOrganizerApp.swift */; };
 		71EF64242898229600DBF8A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71EF64112898229600DBF8A2 /* Assets.xcassets */; };
 		71EF642F289861F800DBF8A2 /* AscConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF642D289861F800DBF8A2 /* AscConnector.swift */; };
 		71EF64392899135A00DBF8A2 /* AvailableReportTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF64312899135A00DBF8A2 /* AvailableReportTypes.swift */; };
@@ -40,10 +39,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		71EF640F2898229300DBF8A2 /* FinancialReportSplitterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancialReportSplitterApp.swift; sourceTree = "<group>"; };
-		71EF64102898229300DBF8A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		71EF640F2898229300DBF8A2 /* FinancialReportOrganizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancialReportOrganizerApp.swift; sourceTree = "<group>"; };
 		71EF64112898229600DBF8A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		71EF641C2898229600DBF8A2 /* FinancialReportSplitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinancialReportSplitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71EF641C2898229600DBF8A2 /* FinancialReportOrganizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinancialReportOrganizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71EF641E2898229600DBF8A2 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		71EF642D289861F800DBF8A2 /* AscConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AscConnector.swift; sourceTree = "<group>"; };
 		71EF64312899135A00DBF8A2 /* AvailableReportTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvailableReportTypes.swift; sourceTree = "<group>"; };
@@ -99,9 +97,8 @@
 			children = (
 				71EF647E289E42E200DBF8A2 /* Views */,
 				71EF64302899134900DBF8A2 /* Models */,
-				71EF640F2898229300DBF8A2 /* FinancialReportSplitterApp.swift */,
+				71EF640F2898229300DBF8A2 /* FinancialReportOrganizerApp.swift */,
 				71EF648C289E46AF00DBF8A2 /* sample_report.json */,
-				71EF64102898229300DBF8A2 /* ContentView.swift */,
 				71EF64112898229600DBF8A2 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -110,7 +107,7 @@
 		71EF64172898229600DBF8A2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				71EF641C2898229600DBF8A2 /* FinancialReportSplitter.app */,
+				71EF641C2898229600DBF8A2 /* FinancialReportOrganizer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -182,9 +179,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		71EF641B2898229600DBF8A2 /* FinancialReportSplitter (macOS) */ = {
+		71EF641B2898229600DBF8A2 /* FinancialReportOrganizer (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 71EF642A2898229600DBF8A2 /* Build configuration list for PBXNativeTarget "FinancialReportSplitter (macOS)" */;
+			buildConfigurationList = 71EF642A2898229600DBF8A2 /* Build configuration list for PBXNativeTarget "FinancialReportOrganizer (macOS)" */;
 			buildPhases = (
 				71EF64182898229600DBF8A2 /* Sources */,
 				71EF64192898229600DBF8A2 /* Frameworks */,
@@ -194,9 +191,9 @@
 			);
 			dependencies = (
 			);
-			name = "FinancialReportSplitter (macOS)";
+			name = "FinancialReportOrganizer (macOS)";
 			productName = "FinancialReportSplitter (macOS)";
-			productReference = 71EF641C2898229600DBF8A2 /* FinancialReportSplitter.app */;
+			productReference = 71EF641C2898229600DBF8A2 /* FinancialReportOrganizer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -214,7 +211,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 71EF640D2898229300DBF8A2 /* Build configuration list for PBXProject "FinancialReportSplitter" */;
+			buildConfigurationList = 71EF640D2898229300DBF8A2 /* Build configuration list for PBXProject "FinancialReportOrganizer" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -227,7 +224,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				71EF641B2898229600DBF8A2 /* FinancialReportSplitter (macOS) */,
+				71EF641B2898229600DBF8A2 /* FinancialReportOrganizer (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -256,7 +253,6 @@
 				71EF643D2899135A00DBF8A2 /* RegionCurrency.swift in Sources */,
 				71EF646F289D004500DBF8A2 /* AssociatedAccount.swift in Sources */,
 				71EF6491289E484E00DBF8A2 /* EmptyReportView.swift in Sources */,
-				71EF64222898229600DBF8A2 /* ContentView.swift in Sources */,
 				71EF64452899135A00DBF8A2 /* ReportSummaries.swift in Sources */,
 				71EF6475289D01E000DBF8A2 /* SapVendorNumber.swift in Sources */,
 				71EF643B2899135A00DBF8A2 /* FinancialReport.swift in Sources */,
@@ -270,7 +266,7 @@
 				71EF6469289CFFEC00DBF8A2 /* UserDetail.swift in Sources */,
 				71EF649D28A02D8D00DBF8A2 /* ProceedsDetails.swift in Sources */,
 				71EF64412899135A00DBF8A2 /* FinancialReportResponse.swift in Sources */,
-				71EF64202898229600DBF8A2 /* FinancialReportSplitterApp.swift in Sources */,
+				71EF64202898229600DBF8A2 /* FinancialReportOrganizerApp.swift in Sources */,
 				71EF64392899135A00DBF8A2 /* AvailableReportTypes.swift in Sources */,
 				71EF6466289CFD7500DBF8A2 /* Response.swift in Sources */,
 				71EF646C289D000500DBF8A2 /* UserDetailResponse.swift in Sources */,
@@ -412,8 +408,8 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.doublerew.FinancialReportSplitter;
-				PRODUCT_NAME = FinancialReportSplitter;
+				PRODUCT_BUNDLE_IDENTIFIER = net.doublerew.FinancialReportOrganizer;
+				PRODUCT_NAME = FinancialReportOrganizer;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -440,8 +436,8 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.doublerew.FinancialReportSplitter;
-				PRODUCT_NAME = FinancialReportSplitter;
+				PRODUCT_BUNDLE_IDENTIFIER = net.doublerew.FinancialReportOrganizer;
+				PRODUCT_NAME = FinancialReportOrganizer;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -451,7 +447,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		71EF640D2898229300DBF8A2 /* Build configuration list for PBXProject "FinancialReportSplitter" */ = {
+		71EF640D2898229300DBF8A2 /* Build configuration list for PBXProject "FinancialReportOrganizer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				71EF64252898229600DBF8A2 /* Debug */,
@@ -460,7 +456,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		71EF642A2898229600DBF8A2 /* Build configuration list for PBXNativeTarget "FinancialReportSplitter (macOS)" */ = {
+		71EF642A2898229600DBF8A2 /* Build configuration list for PBXNativeTarget "FinancialReportOrganizer (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				71EF642B2898229600DBF8A2 /* Debug */,

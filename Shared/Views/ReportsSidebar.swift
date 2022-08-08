@@ -1,6 +1,6 @@
 //
 //  ReportsSidebar.swift
-//  FinancialReportSplitter
+//  FinancialReportOrganizer
 //
 //  Created by Fausto Ristagno on 06/08/22.
 //

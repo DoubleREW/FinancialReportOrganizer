@@ -1,5 +1,5 @@
 //
-//  FinancialReportSplitterApp.swift
+//  FinancialReportOrganizerApp.swift
 //  Shared
 //
 //  Created by Fausto Ristagno on 01/08/22.
@@ -8,10 +8,11 @@
 import SwiftUI
 
 @main
-struct FinancialReportSplitterApp: App {
+struct FinancialReportOrganizerApp: App {
     var body: some Scene {
         WindowGroup {
             ReportsOrganizerView()
+                .navigationTitle("Financial Report Organizer")
                 .frame(minWidth: 800, maxWidth: .infinity, minHeight: 500, maxHeight: .infinity)
                 .environmentObject(ReportsOrganizer.default)
                 .environmentObject(AscConnector.shared)

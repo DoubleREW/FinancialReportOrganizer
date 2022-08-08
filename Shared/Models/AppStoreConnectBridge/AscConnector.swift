@@ -1,6 +1,6 @@
 //
 //  AscConnector.swift
-//  FinancialReportSplitter
+//  FinancialReportOrganizer
 //
 //  Created by Fausto Ristagno on 01/08/22.
 //

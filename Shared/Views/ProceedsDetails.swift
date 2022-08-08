@@ -1,6 +1,6 @@
 //
 //  ProceedsDetails.swift
-//  FinancialReportSplitter
+//  FinancialReportOrganizer
 //
 //  Created by Fausto Ristagno on 07/08/22.
 //
