@@ -24,7 +24,6 @@ struct FinancialReportOrganizerApp: App {
     }
 }
 
-#if DEBUG
 extension FinancialReport {
     static var sample: FinancialReport {
         let sampleUrl = Bundle.main.url(forResource: "sample_report", withExtension: "json")!
@@ -33,4 +32,3 @@ extension FinancialReport {
         return try! JSONDecoder().decode(FinancialReport.self, from: sampleData)
     }
 }
-#endif
