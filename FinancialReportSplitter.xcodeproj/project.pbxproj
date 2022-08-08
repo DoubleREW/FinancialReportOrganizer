@@ -63,6 +63,10 @@
 		71EF6494289E4A5B00DBF8A2 /* ReportsOrganizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF6492289E4A5B00DBF8A2 /* ReportsOrganizer.swift */; };
 		71EF6496289EB1B600DBF8A2 /* LazyReportViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF6495289EB1B600DBF8A2 /* LazyReportViewer.swift */; };
 		71EF6497289EB1B600DBF8A2 /* LazyReportViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF6495289EB1B600DBF8A2 /* LazyReportViewer.swift */; };
+		71EF649928A02C2600DBF8A2 /* ProceedsProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF649828A02C2600DBF8A2 /* ProceedsProcessor.swift */; };
+		71EF649A28A02C2600DBF8A2 /* ProceedsProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF649828A02C2600DBF8A2 /* ProceedsProcessor.swift */; };
+		71EF649C28A02D8D00DBF8A2 /* ProceedsDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF649B28A02D8D00DBF8A2 /* ProceedsDetails.swift */; };
+		71EF649D28A02D8D00DBF8A2 /* ProceedsDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EF649B28A02D8D00DBF8A2 /* ProceedsDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,6 +101,8 @@
 		71EF648F289E484E00DBF8A2 /* EmptyReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyReportView.swift; sourceTree = "<group>"; };
 		71EF6492289E4A5B00DBF8A2 /* ReportsOrganizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsOrganizer.swift; sourceTree = "<group>"; };
 		71EF6495289EB1B600DBF8A2 /* LazyReportViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LazyReportViewer.swift; sourceTree = "<group>"; };
+		71EF649828A02C2600DBF8A2 /* ProceedsProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProceedsProcessor.swift; sourceTree = "<group>"; };
+		71EF649B28A02D8D00DBF8A2 /* ProceedsDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProceedsDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +169,7 @@
 				71EF6479289D027800DBF8A2 /* WebApi */,
 				71EF6446289A3E1D00DBF8A2 /* LegalEntity.swift */,
 				71EF6492289E4A5B00DBF8A2 /* ReportsOrganizer.swift */,
+				71EF649828A02C2600DBF8A2 /* ProceedsProcessor.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -206,6 +213,7 @@
 				71EF6486289E44C400DBF8A2 /* ReportsSidebar.swift */,
 				71EF6495289EB1B600DBF8A2 /* LazyReportViewer.swift */,
 				71EF648F289E484E00DBF8A2 /* EmptyReportView.swift */,
+				71EF649B28A02D8D00DBF8A2 /* ProceedsDetails.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -325,9 +333,11 @@
 				71EF643E2899135A00DBF8A2 /* ResponseMessages.swift in Sources */,
 				71EF642E289861F800DBF8A2 /* AscConnector.swift in Sources */,
 				71EF6477289D020F00DBF8A2 /* SapVendorNumbersResponse.swift in Sources */,
+				71EF649928A02C2600DBF8A2 /* ProceedsProcessor.swift in Sources */,
 				71EF6493289E4A5B00DBF8A2 /* ReportsOrganizer.swift in Sources */,
 				71EF6483289E438400DBF8A2 /* ReportsOrganizerView.swift in Sources */,
 				71EF6468289CFFEC00DBF8A2 /* UserDetail.swift in Sources */,
+				71EF649C28A02D8D00DBF8A2 /* ProceedsDetails.swift in Sources */,
 				71EF64402899135A00DBF8A2 /* FinancialReportResponse.swift in Sources */,
 				71EF641F2898229600DBF8A2 /* FinancialReportSplitterApp.swift in Sources */,
 				71EF64382899135A00DBF8A2 /* AvailableReportTypes.swift in Sources */,
@@ -358,9 +368,11 @@
 				71EF643F2899135A00DBF8A2 /* ResponseMessages.swift in Sources */,
 				71EF642F289861F800DBF8A2 /* AscConnector.swift in Sources */,
 				71EF6478289D020F00DBF8A2 /* SapVendorNumbersResponse.swift in Sources */,
+				71EF649A28A02C2600DBF8A2 /* ProceedsProcessor.swift in Sources */,
 				71EF6494289E4A5B00DBF8A2 /* ReportsOrganizer.swift in Sources */,
 				71EF6484289E438400DBF8A2 /* ReportsOrganizerView.swift in Sources */,
 				71EF6469289CFFEC00DBF8A2 /* UserDetail.swift in Sources */,
+				71EF649D28A02D8D00DBF8A2 /* ProceedsDetails.swift in Sources */,
 				71EF64412899135A00DBF8A2 /* FinancialReportResponse.swift in Sources */,
 				71EF64202898229600DBF8A2 /* FinancialReportSplitterApp.swift in Sources */,
 				71EF64392899135A00DBF8A2 /* AvailableReportTypes.swift in Sources */,

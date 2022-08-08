@@ -16,7 +16,7 @@ struct ReportsOrganizerView: View {
             ReportsSidebar(selectedReport: $vm.activeReport)
             EmptyReportView()
         }
-        .sheet(isPresented: $vm.isImportReportViewVisible, content: {
+        .sheet(isPresented: $vm.isImportReportSheetShowing, content: {
             ReportImportView()
         })
         .toolbar {
@@ -56,7 +56,7 @@ extension ReportsOrganizerView {
         var activeReport: ReportPreview? = nil
 
         @Published
-        var isImportReportViewVisible: Bool = false
+        var isImportReportSheetShowing: Bool = false
 
         @Published
         var lastErrorMessage: String? = nil
@@ -82,7 +82,7 @@ extension ReportsOrganizerView {
         }
 
         func showImportReportSheet() {
-            self.isImportReportViewVisible = true
+            self.isImportReportSheetShowing = true
         }
 
         func openReport() {

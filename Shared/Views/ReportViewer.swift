@@ -46,8 +46,8 @@ struct ReportViewer: View {
                     .background(vm.bgColorForSummaryStatus(vm.reportSummary.status))
                     .cornerRadius(5)
                     .foregroundColor(vm.textColorForSummaryStatus(vm.reportSummary.status))
+                Text("\(vm.reportSummary.amount) \(vm.reportSummary.currency)")
                 if vm.reportSummary.status == "PAID" {
-                    Text("\(vm.reportSummary.amount) \(vm.reportSummary.currency)")
                     Text("\(vm.reportSummary.bankName) \(vm.reportSummary.maskedBankAccount)")
                 }
             }
@@ -82,7 +82,7 @@ struct ReportViewer: View {
             }
             ToolbarItem(placement: .primaryAction) {
                 Button {
-                    vm.processProceeds()
+                    vm.showProceedsDetailsSheet()
                 } label: {
                     Image(systemName: "square.grid.2x2")
                 }
@@ -100,13 +100,26 @@ struct ReportViewer: View {
                 Text("Cancel")
             }
         }
-        .alert(isPresented: .constant(vm.lastError != nil), error: vm.lastError, actions: {
+        .alert(isPresented: .constant(vm.lastError != nil), error: vm.lastError) {
             Button(role: .cancel) {
                 vm.lastError = nil
             } label: {
                 Text("Cancel")
             }
-        })
+        }
+        .sheet(isPresented: $vm.isProceedsDetailsSheetShowing) {
+            VStack(alignment: .leading) {
+                ProceedsDetails(summary: vm.reportSummary, report: vm.report)
+                VStack(alignment: .trailing) {
+                    Button(role: .cancel) {
+                        vm.isProceedsDetailsSheetShowing = false
+                    } label: {
+                        Text("Close")
+                    }
+                }
+                .padding()
+            }
+        }
     }
 }
 
@@ -133,6 +146,9 @@ extension ReportViewer {
 
         @Published
         var isErrorAlertShowing: Bool = false
+
+        @Published
+        var isProceedsDetailsSheetShowing: Bool = false
 
         @Published
         var lastError: Error? = nil {
@@ -215,8 +231,8 @@ extension ReportViewer {
             }
         }
 
-        func processProceeds() {
-
+        func showProceedsDetailsSheet() {
+            self.isProceedsDetailsSheetShowing = true
         }
     }
 }

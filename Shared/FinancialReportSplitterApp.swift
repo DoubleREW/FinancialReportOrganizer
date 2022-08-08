@@ -14,6 +14,7 @@ struct FinancialReportSplitterApp: App {
             ReportsOrganizerView()
                 .frame(minWidth: 800, maxWidth: .infinity, minHeight: 500, maxHeight: .infinity)
                 .environmentObject(ReportsOrganizer.default)
+                .environmentObject(ProceedsProcessor())
         }
         .commands {
             SidebarCommands()

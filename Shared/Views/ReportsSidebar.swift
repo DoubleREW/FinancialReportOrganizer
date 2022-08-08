@@ -59,7 +59,9 @@ struct ReportsSidebar: View {
                     }
                 }
                 .menuStyle(.borderlessButton)
-                .padding()
+                .padding([.horizontal])
+                .padding([.bottom], 10)
+                .padding([.top], 5)
             }
         }
         .onAppear {
