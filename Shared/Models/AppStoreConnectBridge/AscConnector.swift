@@ -18,22 +18,39 @@ enum FetchError : Error {
     case noData
 }
 
-class AscConnector : NSObject {
+class AscConnector : ObservableObject {
     static var shared: AscConnector = {
         return AscConnector()
     }()
 
-    private static var loginUrl = "https://appstoreconnect.apple.com/login?targetUrl=%2Fitc%2Fpayments_and_financial_reports"
-    private static var userDetailUrl = "https://appstoreconnect.apple.com/WebObjects/iTunesConnect.woa/ra/user/detail"
-    private static var sapVendorNumbersUrl = " https://appstoreconnect.apple.com/WebObjects/iTunesConnect.woa/ra/paymentConsolidation/providers/%ld/sapVendorNumbers"
-    private static var reportsUrl = "https://appstoreconnect.apple.com/WebObjects/iTunesConnect.woa/ra/paymentConsolidation/providers/%ld/sapVendorNumbers/%ld?year=%ld&month=%ld"
+    private static let loginUrl = "https://appstoreconnect.apple.com/login?targetUrl=%2Fitc%2Fpayments_and_financial_reports"
+    private static let userDetailUrl = "https://appstoreconnect.apple.com/WebObjects/iTunesConnect.woa/ra/user/detail"
+    private static let sapVendorNumbersUrl = " https://appstoreconnect.apple.com/WebObjects/iTunesConnect.woa/ra/paymentConsolidation/providers/%ld/sapVendorNumbers"
+    private static let reportsUrl = "https://appstoreconnect.apple.com/WebObjects/iTunesConnect.woa/ra/paymentConsolidation/providers/%ld/sapVendorNumbers/%ld?year=%ld&month=%ld"
 
     private lazy var webView: WKWebView = {
         return WKWebView()
     }()
 
+    private static let authTimeout: TimeInterval = 15 * 60
+    private var authTimer: Timer? = nil
+
+    @Published
     public private(set) var isAuthWindowPresented = false
-    public private(set) var isAuthenticated = false
+
+    @Published
+    public private(set) var isAuthenticated = false {
+        didSet {
+            authTimer?.invalidate()
+            authTimer = nil
+
+            if isAuthenticated {
+                authTimer = Timer.scheduledTimer(withTimeInterval: Self.authTimeout, repeats: false, block: { [weak self] timer in
+                    self?.isAuthenticated = false
+                })
+            }
+        }
+    }
 
     func presentAuthWindow() {
         let controller = AscAuthViewController(nibName: nil, bundle: nil)
@@ -50,7 +67,7 @@ class AscConnector : NSObject {
         let request = URLRequest(url: url)
         self.webView.load(request)
 
-        NSApp.mainWindow?.beginSheet(window)
+        NSApp.keyWindow?.beginSheet(window)
 
         self.isAuthWindowPresented = true
     }

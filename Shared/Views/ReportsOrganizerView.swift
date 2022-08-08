@@ -17,7 +17,7 @@ struct ReportsOrganizerView: View {
             EmptyReportView()
         }
         .sheet(isPresented: $vm.isImportReportSheetShowing, content: {
-            ReportImportView()
+            ReportImportView(isPresented: $vm.isImportReportSheetShowing)
         })
         .toolbar {
             ToolbarItem(placement: .navigation) {
