@@ -65,15 +65,23 @@ struct ReportsSidebar: View {
             }
         }
         .onAppear {
-            vendorNumbers = reportsOrganizer.availableVendorNumbers()
-            if vendorNumber == nil {
-                vendorNumber = vendorNumbers.first
-            }
+            refreshVendorNumbers()
+        }
+        .onReceive(reportsOrganizer.events) { event in
+            refreshVendorNumbers()
         }
     }
 
     func monthLabel(_ number: Int) -> String {
         return months[number - 1]
+    }
+
+    func refreshVendorNumbers() {
+        vendorNumbers = reportsOrganizer.availableVendorNumbers()
+
+        if vendorNumber == nil || !vendorNumbers.contains(vendorNumber!) {
+            vendorNumber = vendorNumbers.first
+        }
     }
 }
 
