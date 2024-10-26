@@ -49,6 +49,12 @@ Republic of Ireland
 VAT ID: IE9700053D
 """
 
+    static let appleServicesPteLtdAddress = """
+Apple Services Pte. Ltd.
+7 ANG MO KIO STREET 64
+SINGAPORE
+"""
+
     static let appleCanada: LegalEntity = .init(name: "Apple Canada, Inc.", address: appleCanadaAddress, regions: Set([
         "CA", // Canada
     ]))
@@ -122,6 +128,11 @@ VAT ID: IE9700053D
         "VN", // Vietnam
     ]))
 
+    static let appleServicesPteLtd: LegalEntity = .init(name: "Apple Services Pte. Ltd.", address: appleServicesPteLtdAddress, regions: Set([
+        "AP", // South Asia and Pacific (Bhutan, Brunei, Cambodia, Laos, Macau, Maldives, Micronesia, Mongolia, Myanmar, Nepal, Palau, Sri Lanka, Fiji, Nauru, Papua New Guinea, Solomon Islands, Tonga, and Vanuatu)
+        "KR", // South Korea
+    ]))
+
     static func accountableLegalEntity(for regionCode: String) -> LegalEntity? {
         for legalEntity in Self.allCases {
             if legalEntity.regions.contains(regionCode) {
@@ -142,6 +153,7 @@ extension LegalEntity : CaseIterable {
             .appleLatamLlc,
             .itunesKk,
             .appleDistributionLtd,
+            .appleServicesPteLtd
         ]
     }
 }
