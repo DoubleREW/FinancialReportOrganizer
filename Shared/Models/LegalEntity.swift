@@ -118,7 +118,6 @@ SINGAPORE
         "HR", // Croatia
         "EG", // Egypt
         "KZ", // Kazakhstan
-        "KR", // Republic of Korea
         "MY", // Malaysia
         "NG", // Nigeria
         "PK", // Pakistan
